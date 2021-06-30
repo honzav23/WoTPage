@@ -2,7 +2,7 @@
     
     <?php
   
-  include 'D:\wamp64\www\testing\connect.php';
+  include 'D:\wamp64\www\WoTPage\testing\connect.php';
   error_reporting (E_ALL ^ E_NOTICE); 
     $q = false;
     $q = $_GET['q'];
