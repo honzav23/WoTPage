@@ -4,8 +4,8 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="generator" content="PSPad editor, www.pspad.com">
     <?php
-      include 'D:/wamp64/www/testing/insert3.php';
-      include 'D:\wamp64\www\testing\connect.php';
+      include 'D:/wamp64/www/WoTPage/testing/insert3.php';
+      include 'D:\wamp64\www\WoTPage\testing\connect.php';
       $question = "SELECT * FROM tank WHERE Prubojnost1 = '10000'";
       $res = mysqli_query($connect, $question);
       if(mysqli_num_rows($res) > 0) { 
