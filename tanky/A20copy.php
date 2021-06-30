@@ -15,7 +15,7 @@
         }  
       }
       $nazev = $name;
-      include 'D:\wamp64\www\testing\connect.php';
+      include 'D:\wamp64\www\WoTPage\testing\connect.php';
       include 'dataTank.php';
       include 'insert.php';
     ?>   
