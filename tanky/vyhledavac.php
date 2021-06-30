@@ -2,7 +2,7 @@
 
  <?php 
   
- include 'D:\wamp64\www\testing\connect.php';
+ include 'D:\wamp64\www\WoTPage\testing\connect.php';
  if(isset($_POST["query"]))  
  {  
      
