@@ -1,7 +1,7 @@
 
     
     <?php
-  include 'D:/wamp64/www/testing/connect.php';
+  include 'D:/wamp64/www/WoTPage/testing/connect.php';
   if (!empty($_POST['q'])) {
     $x = $_POST['q'];
     $sql = "SELECT PocetRan FROM tank WHERE Nazev = '$x' AND Prubojnost1 != 10000";
