@@ -1,0 +1,119 @@
+ body {background-image:url(images/excalibur.jpg);background-attachment:fixed;z-index:-1;}
+  h1 {background: url(images/zlato5.jpg);
+	color: #fff;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+  background-clip:text;  
+  text-align:center;
+  font-size:50px;
+   margin-top:-5px;
+  font-family:Franklin Gothic Medium;
+  
+  }
+ 
+  .narod {display:none;}
+  .narody {width:70%;margin:auto;}
+   label img {width:100px;float:left;height:70px;margin-left:10px;}                  
+   
+    label p {-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Tahoma;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+  text-align:center;
+}
+   
+   :checked + label img {box-shadow:0 0 20px;width:110px;height:73px;}
+   :checked + label p {position:relative;
+	top:1px;background:-webkit-gradient(linear, left top, left bottom, color-stop(0.1, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #d28200 10%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #d28200 10%, #ffec64 100%);
+	background:-o-linear-gradient(top, #d28200 10%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #d28200 10%, #ffec64 100%);
+	background:linear-gradient(to bottom, #d28200 10%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d28200', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;}
+   .tiery {margin:auto;width:40%;}
+   .tier, .premko{display:none;}
+   td, th {height:30;border:1px solid black;width:175px;font-weight:normal;font-size:19px;cursor:pointer;font-family: "Times New Roman", Times, serif;}
+  table {width:175px;font-weight:normal;font-size:20px;cursor:pointer;border-style:hidden;border-collapse:collapse;display:flex;margin-top:44px;}
+   th {background-color:black;color:white;text-align:center;}
+   tr:nth-child(even) {
+      background:#bdbdbd}
+      tr:nth-child(odd) {
+      background:white}
+   .kontejner {width:200px;margin-top:-100px;}
+   #premko {background:url(images/gold.png) no-repeat center right;background-size:30px auto;}
+   
+  
+   #vsechnyt {margin-left:125px;}
+  
+  
+  
+   
+  
+   
+     a {text-decoration:none;color:inherit;}                        
+   
+    #premium{width:100px;}
+    
+    .menuCara {width:30px;
+    height:3px;
+    background-color:white;
+    margin:6px 0;
+    
+  }
+  .menu {display:none;width:30px;padding:1px 4px;}
+  .menu:hover {border:1px solid #42424293;border-radius:50%;background-color:#42424293}
+  .menu:active {border:1px solid #00000093;background-color:#00000093}
+  .lightZastupce {border:1px solid black;width:143px;height:23px;
+  font-size:16px;cursor:pointer;background-color:black;color:white;
+  position:absolute;margin-top:-70px;right:245px;text-align:center;display:none}
+  
+  
+  .medkoZastupce {border:1px solid black;width:143px;height:23px;
+  font-size:16px;cursor:pointer;background-color:black;color:white;
+  position:absolute;margin-top:-70px;right:245px;text-align:center;display:none}
+  
+  .heavynaZastupce {border:1px solid black;width:143px;height:23px;
+  font-size:16px;cursor:pointer;background-color:black;color:white;
+  position:absolute;margin-top:-70px;right:245px;text-align:center;display:none}
+  
+  .tdckoZastupce {border:1px solid black;width:143px;height:23px;
+  font-size:16px;cursor:pointer;background-color:black;color:white;
+  position:absolute;margin-top:-70px;right:245px;text-align:center;display:none}
+
+  .artynaZastupce {border:1px solid black;width:143px;height:23px;
+  font-size:16px;cursor:pointer;background-color:black;color:white;
+  position:absolute;margin-top:-70px;right:245px;text-align:center;display:none}
+  
+  #zapisNaroda, #zapisTieru, #zapisPremka {display:none;}
+ 
+  
+
+  @media screen and (max-width:750px){
+  
+    label img {width:66px;height:47px;}
+    label p {padding:4px 12px;font-size: 10px;}
+    
+    .kontejner {margin-top:200px;}
+    }
