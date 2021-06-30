@@ -1,7 +1,7 @@
 
     
     <?php
-    include 'D:\wamp64\www\testing\connect.php';
+    include 'D:\wamp64\www\WoTPage\testing\connect.php';
     $delo = false;
      $query = "SELECT * FROM tank WHERE Prubojnost1 < 10000 AND Nazev = '$nazev'";
      $result = mysqli_query($connect, $query);
