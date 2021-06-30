@@ -83,7 +83,7 @@
       
       include 'vyhledavani.php';
       
-      echo '<a class="odkaz" href="http://testing/">←Zpět na úvodní stránku</a>'
+      echo '<a class="odkaz" href="http://www.tankserver.cz//">←Zpět na úvodní stránku</a>'
     ?>
     <script>
       // Changes the values when a gun is changed.
