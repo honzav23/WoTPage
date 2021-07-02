@@ -19,7 +19,7 @@
                     $output .= '<a href="http://tanky/Progettocopy"><li class="link">'.$row['Nazev'].'</li></a>';
                 }
                 else {
-                    $output .= '<a href="http://tanky/A20copy"><li class="link">'.$row['Nazev'].'</li></a>';
+                    $output .= '<a href="http://tanky/tank"><li class="link">'.$row['Nazev'].'</li></a>';
                 }
            }  
       }  
