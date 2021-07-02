@@ -14,7 +14,7 @@
       {  
            while($row = mysqli_fetch_array($result))  
            {  
-                $output += '<a href="http://tanky/A20copy"><li class="link">'.$row['Nazev'].'</li></a>';  
+                $output += '<a href="http://tanky/tank"><li class="link">'.$row['Nazev'].'</li></a>';  
            }  
       }  
      

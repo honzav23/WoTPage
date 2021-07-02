@@ -44,10 +44,10 @@ if(isset($_POST["action"]))
     }
     else {
       if ($row["Status"] == "premko") {
-        $output2 .= '<tr><td id="premko"><a href="http://tanky/A20copy" class="link">'.$row["Nazev"].' </a></td></tr>';
+        $output2 .= '<tr><td id="premko"><a href="http://tanky/tank" class="link">'.$row["Nazev"].' </a></td></tr>';
       }
       else {
-        $output2 .= '<tr><td><a href="http://tanky/A20copy" class="link">'.$row["Nazev"].' </a></td></tr>';
+        $output2 .= '<tr><td><a href="http://tanky/tank" class="link">'.$row["Nazev"].' </a></td></tr>';
       }
     }
   }
