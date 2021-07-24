@@ -1,23 +1,20 @@
- 
-     function prehozeni(ukaz, schovej) {
-      $('#' + ukaz).show();
-      $('#' + schovej).hide();}
+
       var levelPosadky = 100;
-      window.Ikonanabijak;
+    window.Ikonanabijak;
     window.Ikonaventilace;
     window.Ikonabratri;
     window.Ikonaoptika;
     window.Ikonabino;
     window.Ikonazamerovak;
-     window.nabijak;
-     window.nabijeni;
-     window.zamerovani;
-     window.zamerovak;
-     window.dohled;
-     window.binoOp;
-     window.bino;
-     window.presnost;
-     window.Presnost;
+    window.nabijak;
+    window.nabijeni;
+    window.zamerovani;
+    window.zamerovak;
+    window.dohled;
+    window.binoOp;
+    window.bino;
+    window.presnost;
+    window.Presnost;
     
      function calculate(zdroj, ikona, vystup, zmena) {
     if ($('input[type="checkbox"]:checked').length > 3) {alert("Můžeš použít maximálně 3 doplňky najednou (jako ve hře)!");}
@@ -25,7 +22,7 @@
     zmena(vystup, ikona);
     var zaklad = zdroj.innerHTML;
     var koeficient = 1;
-var vysledek;
+    var vysledek;
 
 if (ikona.checked == true && Ikonaventilace.checked == false && Ikonabratri.checked == false){
 koeficient = 0.1;
