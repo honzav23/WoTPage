@@ -1,5 +1,5 @@
 
-      var levelPosadky = 100;
+    var levelPosadky = 100;
     window.Ikonanabijak;
     window.Ikonaventilace;
     window.Ikonabratri;
