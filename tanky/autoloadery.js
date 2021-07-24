@@ -1,7 +1,4 @@
- 
-     function prehozeni(ukaz, schovej) {
-      $('#' + ukaz).show();
-      $('#' + schovej).hide();}
+
       var levelPosadky = 100;
       window.Ikonanabijak;
     window.Ikonaventilace;
